@@ -11,7 +11,7 @@ Given('I navigate to {string}', async ({page}, url) => {
   // 2. Missing step definition for "ecomlogin.feature:8:5"
   Given('I click on My account', async ({page}, My_account) => {
     //await page.waitForTimeout(10000);
-    await page.getByRole('link', { name: 'Login' }).click();
+    await page.getByRole('button', { name: 'My_account' }).click();
     await page.waitForTimeout(10000);
   });
   
