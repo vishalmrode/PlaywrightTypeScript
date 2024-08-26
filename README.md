@@ -1,3 +1,3 @@
-# https-github.com-vishalmrode-PlaywrightTypeScript
+# PlaywrightTypeScript
 
 adding test comments
