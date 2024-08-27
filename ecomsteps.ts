@@ -27,7 +27,7 @@ Given('I navigate to {string}', async ({page}, url) => {
   
   
   When('I click on Login button', async ({page}) => {
-    await page.getByText('Login').click();
+    await page.locator("input[value='Login']").click();
   });
   
 
